@@ -260,4 +260,35 @@
             }
         }
     }
+
+    //Donate page
+    .donate-header {
+        height: 300px;
+    }
+    .ways-to-give {
+        .container {
+            flex-direction: column;
+            gap: 50px;
+            .col-left, .col-right {
+                width: 100%;
+            }
+            .col-left {
+                .card {
+                    width: 100%;
+                }
+            }
+            .col-right {
+                margin-top: 0;
+                padding: 3;
+            }
+        }
+    }
+
+    .header{
+        .container {
+            p {
+                max-width: 100%;
+            }
+        }
+    }
 }
